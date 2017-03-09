@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------------------
+// Mixins
+// ----------------------------------------------------------------------------
+@mixin transition($transition-property, $transition-time, $method) {
+  -webkit-transition: $transition-property $transition-time $method;
+  -moz-transition: $transition-property $transition-time $method;
+  -o-transition: $transition-property $transition-time $method;
+  transition: $transition-property $transition-time $method;
+}
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #2AFF00;
+$value-color:       #000;
+
+$title-color:       rgba(0, 0, 0, 0.7);
+$moreinfo-color:    rgba(0, 0, 0, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-icinga_hosts_services styles
+// ----------------------------------------------------------------------------
+.widget-icinga_hosts_services {
+
+  background-color: $background-color;
+  @include transition(background-color, 2s, linear);
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+@import url("colors.scss")
+

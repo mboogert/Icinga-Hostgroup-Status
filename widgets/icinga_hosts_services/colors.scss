@@ -1,0 +1,71 @@
+.status_critical {
+    background-color: #FF002A;
+    color: #FFF;
+    .title {
+        color: #FFF;
+    }
+    .value {
+        color: #FFF;
+        font-size: 22px;
+    }
+    .more-info {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .updated-at {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.status_unknown {
+    background-color: #CC0099;
+    color: #FFF;
+    .title {
+        color: #FFF;
+    }
+    .value {
+        color: #FFF;
+        font-size: 22px;
+    }
+    .more-info {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .updated-at {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.status_warning {
+    background-color: #FFD500;
+    color: #000;
+    .title {
+        color: #000;
+    }
+    .value {
+        color: #000;
+        font-size: 22px;
+    }
+    .more-info {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .updated-at {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.status_up {
+    background-color: #2AFF00;
+    color: #000;
+    .title {
+        color: #000;
+    }
+    .value {
+        color: #000;
+        font-size: 22px;
+    }
+    .more-info {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .updated-at {
+        color: rgba(0, 0, 0, 0.5);
+    }
+} 

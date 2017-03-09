@@ -1,0 +1,30 @@
+<h1 class="title" data-bind="title"></h1>
+
+<h3 class="title">hosts / services</h3>
+
+<table>
+  <tr class="value">
+    <td>UP</td>
+    <td><h3 class="value" data-bind="hosts_up_value"></h3></td>
+    <td><h3 class="value" data-bind="services_up_value"></h3></td>
+  </tr>
+  <tr class="value">
+    <td>UNKNOWN</td>
+    <td><h3 class="value" data-bind="hosts_unknown_value"></h3></td>
+    <td><h3 class="value" data-bind="services_unknown_value"></h3></td>
+  </tr>
+  <tr class="value">
+    <td>WARNING</td>
+    <td><h3 class="value" data-bind="hosts_warning_value"></h3></td>
+    <td><h3 class="value" data-bind="services_warning_value"></h3></td>
+  </tr>
+  <tr class="value">
+    <td>CRITICAL</td>
+    <td><h3 class="value" data-bind="hosts_critical_value"></h3></td>
+    <td><h3 class="value" data-bind="services_critical_value"></h3></td>
+  </tr>
+</table>
+
+<p class="more-info" data-bind="moreinfo"></p>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
